@@ -140,30 +140,40 @@ body {
 
 
 .run-buddy {
-    background-image: url(https://jrargent.github.io/run-buddy/assets/images/hero-bg.jpg);
+    /* background-image: url(https://jrargent.github.io/run-buddy/assets/images/hero-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: top; */
     border: solid var(--primary-color);
     margin-left: 10px;
     position: relative;
     padding: 50px 10px 20px 10px;
     margin-right: 20px;
+    /* opacity: 0.75; */
+}
+
+.run-buddy img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
     opacity: 0.75;
 }
 
 
 
+
 .workbox {
+    position: relative; /*having position relative makes this div pop out in front of image link*/
     color: var(--secondary-color);
     background-color: var(--primary-color);
     width: 20%;
     margin: 20px 0px 10px 0px;
     opacity: 1;
+    z-index: 9999;
     
 }
 
-.run-buddy:hover {
+.link:hover {
     opacity: 1;
 }
 
@@ -177,6 +187,6 @@ body {
     height: 100%;
     top: 0;
     left: 0;
-    z-index: 1;
+
 }
 
