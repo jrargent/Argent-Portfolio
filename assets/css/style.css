@@ -1,0 +1,91 @@
+:root {
+    --primary-color: rgb(1, 154, 214);
+    --secondary-color: rgb(66, 66, 66);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* z-index: 9999; */
+    background-color: var(--secondary-color);
+    
+}
+
+header h1 {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: var(--secondary-color);
+    margin: 5px 10px 5px 30px;
+    padding-left: 20px;
+} 
+
+.Header-Box {
+    background-color: var(--primary-color);
+    margin: 10px 10px 10px 0px;
+    padding-left: 15px;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding-top: 20px
+}
+
+header nav ul li a {
+    padding: 10px 15px 5px 15px;
+    margin: 10px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 3px solid;
+}
+
+.primary-border {
+    border-color: var(--primary-color);
+}
+
+.hero {
+    background-image: url("../images/Potential-Background1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 100%;
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 100px;
+}
+
+.hero-cta {
+    position: absolute;
+    right: 30px;
+    padding-top: 40px;
+    color: var(--secondary-color);
+}
+
+.hero h2 {
+    background-color: var(--primary-color);
+    border: thick double var(--secondary-color);
+    border-radius: 10px;
+    padding: 5px;
+}
+
