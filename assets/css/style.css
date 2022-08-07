@@ -102,16 +102,22 @@ body {
 }
 
 .row p {
-    margin: 10px
+    margin-left: 10px;
+}
+
+.row-header {
+    width: 30%;  
+}
+
+.row-content {
+    border-left: solid var(--primary-color);
 }
 
 .row h2 {
     font-weight: bold;
-    font-size: 50px;
+    font-size: 36px;
     color: var(--primary-color);
-    border-right: solid var(--primary-color);
-    margin-right: 25px;
-    padding-right: 15px;
+    padding-right: 15px; 
     text-align: right;
 }
 
