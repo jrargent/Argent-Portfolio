@@ -64,6 +64,12 @@ body {
     background-color: var(--tertiary-color);
 }
 
+footer h3 {
+    font-weight: lighter;
+    font-style: italic;
+}
+
+
 .primary-border {
     border-color: var(--primary-color);
 }
@@ -84,7 +90,7 @@ body {
 .hero-box {
     position: absolute;
     right: 30px;
-    padding-top: 40px;
+    padding-top: 20px;
     color: var(--secondary-color);
 }
 
@@ -105,11 +111,13 @@ body {
 }
 
 
-
 .row-header {
     width: 20%;
 }
 
+p {
+    font-size: 1.25em;
+}
 .row-content {
     width: 60%;
     border-left: solid var(--primary-color);
@@ -143,6 +151,11 @@ body {
     border-bottom: 3px solid;
     border-color: var(--primary-color);
     padding-bottom: 5px;
+    margin: 10px;
+}
+.about-me img {
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -175,15 +188,12 @@ body {
     
 }
 
-img {
+.work-info img {
     object-fit: cover;
     height: 100%;
     width: 100%;
     opacity: 0.75;
 }
-
-
-
 
 .workbox {
     
@@ -195,7 +205,6 @@ img {
     min-width: 10%;
     opacity: 1;
     z-index: 9999;
-
 }
 
 .link:hover {
@@ -212,29 +221,29 @@ img {
     height: 100%;
     top: 0;
     left: 0;
-
 }
 
+/*Fun little easter egg below*/
+.hide-me {
+    display: none;
+}
 
+.fun:hover + .hide-me {
+    display:block;
+}
 
 /*Media Query Section - Must be Last in List*/
 
 
-/* Media query for small desktop screens and smaller */
-@media screen and (max-width: 980px) {
-
-}
-
 /* Media query for tablets and smaller */
 @media screen and (max-width: 768px) {
-
-}
-
-
-/* Media query for mobile phones and smaller */
-@media screen and (max-width: 575px) {
     .hero h2 {
         font-size: 5vw;
+    }
+
+    .hero-box {
+        position: absolute;
+        padding: 0px;
     }
     
     .row {
@@ -252,8 +261,8 @@ img {
         width: 100%;
         border-top: solid var(--primary-color);
         border-left: none;
-        margin-top: 10px;
-        padding-top: 20px;
+        margin: 10px 0px 0px 0px;
+        padding: 20px 0px 0px 0px;
     }
     
     .row h2 {
@@ -262,4 +271,5 @@ img {
         color: var(--primary-color);
         text-align: center;
     }
+
 }
