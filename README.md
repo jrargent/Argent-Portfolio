@@ -53,12 +53,12 @@ Website As of 8-9-22, for module challenge:
 
 
 ## Things I learned in making this portfolio:
-  -Creating a physical wireframe actually helps in understanding how different sections and divs interact
-  -Starting from scratch poses different challenges than working on someone else's code
-  -Flexboxes are phenomenal, they really helped reduce the need for as many media queries
-  -I should walk away when I get stuck. If I haven't made a breakthrough on something and am still stuck after 45 minutes, I should get up and take a break.
-  -Reaching out for help is essential! I should use my resources, including people in class. We are in this together!
-  -Once the "aha!" moment happens and things click, coding can be fun.
+  - Creating a physical wireframe actually helps in understanding how different sections and divs interact
+  - Starting from scratch poses different challenges than working on someone else's code
+  - Flexboxes are phenomenal, they really helped reduce the need for as many media queries
+  - I should walk away when I get stuck. If I haven't made a breakthrough on something and am still stuck after 45 minutes, I should get up and take a break.
+  - Reaching out for help is essential! I should use my resources, including people in class. We are in this together!
+  - Once the "aha!" moment happens and things click, coding can be fun.
 
 
 
