@@ -229,11 +229,11 @@ p {
 /*Fun little easter egg below*/
 .hide-me {
     display: none;
+
 }
 
 .fun:hover + .hide-me {
     display: block;
-
 }
 
 /*Media Query Section - Must be Last in List*/
