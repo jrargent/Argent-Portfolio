@@ -35,12 +35,30 @@ My portfolio is meant to emulate the following mockups:
 
 ![mockup for portfolio](https://user-images.githubusercontent.com/109035732/183303480-c0674860-b32e-47c6-9288-a2570d3a5052.png)
 
-###Screenshot from Instructor:
+
+Screenshot from Instructor:
 ![Screen Shot 2022-08-05 at 2 44 22 PM](https://user-images.githubusercontent.com/109035732/183303497-b5e5fa1c-1004-48b0-a72c-6eb47748c252.png)
 
 
-## Things I learned in making this portfolio:
 
+My wireframe:
+![image](https://user-images.githubusercontent.com/109035732/183788191-f7a67877-8a08-4bf6-a6a7-76e8b4c317a9.png)
+
+
+Website As of 8-9-22, for module challenge:
+
+![image](https://user-images.githubusercontent.com/109035732/183788401-7bf6944b-d4cf-45c3-afc2-208f341e2a0f.png)
+
+![image](https://user-images.githubusercontent.com/109035732/183788422-3cdcfd5b-7273-4f48-a8d4-1242063c6cd5.png)
+
+
+## Things I learned in making this portfolio:
+  - Creating a physical wireframe actually helps in understanding how different sections and divs interact
+  - Starting from scratch poses different challenges than working on someone else's code
+  - Flexboxes are phenomenal, they really helped reduce the need for as many media queries
+  - I should walk away when I get stuck. If I haven't made a breakthrough on something and am still stuck after 45 minutes, I should get up and take a break.
+  - Reaching out for help is essential! I should use my resources, including people in class. We are in this together!
+  - Once the "aha!" moment happens and things click, coding can be fun.
 
 
 
